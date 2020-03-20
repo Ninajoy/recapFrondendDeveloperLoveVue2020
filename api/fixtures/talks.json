@@ -1,0 +1,554 @@
+[
+{
+    "model": "core.talk",
+    "pk": 1,
+    "fields": {
+        "theme": "How we work",
+        "name": "How thinking small is changing software development big time",
+        "speaker": "Sander Hoogendoorn",
+        "summary": "To stay agile, keep everything small: Solve one small problem everyday. Skills matter, roles and titles do not. TShape. No 9 to 5 mentality: look at how our brains work!",
+        "image": "20200219_092128_fG6fwJI.jpg",
+        "slides": "https://www.insanityworks.org/acme/2013/5/14/geek-productivity-chart.html"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 2,
+    "fields": {
+        "theme": "Webpack",
+        "name": "How to Pack your Webpack",
+        "speaker": "Johannes Ewald",
+        "summary": "Save as .ts, use css-in-js or just be lazy like me and use one of the packages on the image.",
+        "image": "Screenshot_2020-03-06_at_13.18.49_sgokTmO.png",
+        "slides": "https://peerigon.github.io/talks/2020-02-19-frontend-developer-love-how-to-pack-your-webpack/slides/#/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 3,
+    "fields": {
+        "theme": "Svelte",
+        "name": "Svelte: the last framework we need?",
+        "speaker": "Alexander Esselink",
+        "summary": "No virtual DOM. Everything happens when app is compiled.",
+        "image": "20200219_101531.jpg",
+        "slides": "https://svelte.dev/examples#hello-world"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 4,
+    "fields": {
+        "theme": "Serverless",
+        "name": "Serverless gives you wings",
+        "speaker": "Yan Cui",
+        "summary": "Use AWS.",
+        "image": "Screenshot_2020-03-06_at_16.20.51.png",
+        "slides": "https://www.slideshare.net/theburningmonk/serverless-gives-you-wings"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 5,
+    "fields": {
+        "theme": "Test",
+        "name": "Modern Solutions for e2e testing",
+        "speaker": "Anastasiia Dragich",
+        "summary": "Playwright is the best",
+        "image": "20200219_120419.jpg",
+        "slides": "https://github.com/microsoft/playwright"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 6,
+    "fields": {
+        "theme": "A11y",
+        "name": "Practical A11Y for Web Apps",
+        "speaker": "Bob Bijvoet",
+        "summary": "Don't use Aria except for Aria Live",
+        "image": "20200219_123258.jpg",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 7,
+    "fields": {
+        "theme": "Design",
+        "name": "Micro-interactions with React Spring",
+        "speaker": "Emma Bostian",
+        "summary": "Microinteractions are small moments where the user and design interact. When they're well designed, micro interactions enhance the user's experience with the design. When they're poorly designed, they damage the experience.",
+        "image": "submit-m-i.gif",
+        "slides": "https://www.react-spring.io/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 8,
+    "fields": {
+        "theme": "How we work",
+        "name": "But, you're not Facebook",
+        "speaker": "Kitze",
+        "summary": "Do we over-engineer solutions? We are not facebook.",
+        "image": "20200219_131632.jpg",
+        "slides": "https://sizzy.co/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 9,
+    "fields": {
+        "theme": "Test",
+        "name": "Beats, Rhymes and Unit Tests",
+        "speaker": "Tony Edwards",
+        "summary": "Hip Hop and Unit Tests?",
+        "image": "hiphop.gif",
+        "slides": null
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 10,
+    "fields": {
+        "theme": "GraphQL",
+        "name": "GraphQL Without a Database",
+        "speaker": "Roy Derks",
+        "summary": "In this talk I\u2019ll show how to wrap existing REST APIs into one single GraphQL endpoint on both the client and server side. This allows you to access the power of GraphQL without having to change any of your existing code or connect to a database.",
+        "image": "20200219_151427.jpg",
+        "slides": null
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 11,
+    "fields": {
+        "theme": "How we work",
+        "name": "DX is the new black. Learnings from using Nuxt and Storybook at scale.",
+        "speaker": "Aur\u00e9lie Violette",
+        "summary": "DX stands for developer experience. Aurelie told about how she used an agnostic approach Vue, Nuxt and Storybook in a project.",
+        "image": "Screenshot_2020-03-06_at_18.08.38.png",
+        "slides": "https://slides.com/aurelieviolette-1/dx-is-the-new-black#/3"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 12,
+    "fields": {
+        "theme": "How we work",
+        "name": "Refactor your life",
+        "speaker": "Noer Paanakker & Sima Milli",
+        "summary": "Wish i came up with this brilliant idea",
+        "image": "Screenshot_2020-03-06_at_17.11.54.png",
+        "slides": "https://www.hackyourfuture.net/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 13,
+    "fields": {
+        "theme": "WebAssembly",
+        "name": "Blazor with WebAssembly",
+        "speaker": "Don Wibier",
+        "summary": "Coding in client side or be side with C#",
+        "image": "Screenshot_2020-03-06_at_20.09.16.png",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 14,
+    "fields": {
+        "theme": "Audio",
+        "name": "Audio Streaming - Using WebRTC for building your own Voice AIs",
+        "speaker": "Lee Boonstra",
+        "summary": "How to implement your own conversational AI within your web application.",
+        "image": "Screenshot_2020-03-06_at_17.51.07.png",
+        "slides": "https://github.com/savelee/selfservicedesk"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 15,
+    "fields": {
+        "theme": "Serverless",
+        "name": "The Future of Real-time | Offline | Data",
+        "speaker": "Nader Dabit",
+        "summary": "Caching VS Amplify Datastore using GraphQL",
+        "image": "Screenshot_2020-03-06_at_20.48.01.png",
+        "slides": "https://twitter.com/dabit3/status/1230279226785435649"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 16,
+    "fields": {
+        "theme": "WebAssembly",
+        "name": "The state of WebAssembly",
+        "speaker": "Sendil Kumar",
+        "summary": "WebAssembly is faster and more optimized in excuteion and can be used with several languages like C/C++/Rust/Assemblyscript/Go",
+        "image": "Screenshot_2020-03-06_at_21.51.53.png",
+        "slides": "https://speakerdeck.com/sendilkumarn/state-of-webassembly"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 17,
+    "fields": {
+        "theme": "Vue3",
+        "name": "State of the Vuenion 2020",
+        "speaker": "Evan You",
+        "summary": "Vue3",
+        "image": "20200220_091408.jpg",
+        "slides": "https://madewithvuejs.com/blog/vue-3-roundup"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 18,
+    "fields": {
+        "theme": "Design",
+        "name": "Scalable Vue Graphics for the Modern Web",
+        "speaker": "Dima Vishnevetsky",
+        "summary": "SVG",
+        "image": "Screenshot_2020-03-06_at_22.16.09.png",
+        "slides": "https://www.dimshik.com/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 19,
+    "fields": {
+        "theme": "Test",
+        "name": "The Future of Vue's Test Utils",
+        "speaker": "Jessica Sachs",
+        "summary": "Test",
+        "image": "20200220_104442.jpg",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 20,
+    "fields": {
+        "theme": "Vue3",
+        "name": "Introduction into the Composition API",
+        "speaker": "Gregg Pollack",
+        "summary": "COMPOSITION API",
+        "image": "vuecomp.png",
+        "slides": "https://www.vuemastery.com/vue-3-cheat-sheet/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 21,
+    "fields": {
+        "theme": "Vue3",
+        "name": "Composition API Best Practices",
+        "speaker": "Thorsten L\u00fcnborg",
+        "summary": "Composition API",
+        "image": "20200220_121021.jpg",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 22,
+    "fields": {
+        "theme": "Vue3",
+        "name": "Making eCommerce sexy again with Vue Storefront and Composition API",
+        "speaker": "Filip Rakowski",
+        "summary": "Ecommerce and Vue3",
+        "image": "20200220_124236.jpg",
+        "slides": "https://github.com/DivanteLtd/vue-storefront"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 23,
+    "fields": {
+        "theme": "Serverless",
+        "name": "Serverless with Vue and Node.js",
+        "speaker": "Roman Kuba",
+        "summary": "serverless",
+        "image": "Screenshot_2020-03-08_at_11.48.13.png",
+        "slides": "https://speakerdeck.com/codebryo/serverless-static-sites-with-vue-and-node"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 24,
+    "fields": {
+        "theme": "Climate",
+        "name": "Climate change and the tech community",
+        "speaker": "Callum Macrae",
+        "summary": "https://www.websitecarbon.com/",
+        "image": "Screenshot_2020-03-08_at_11.50.28.png",
+        "slides": "https://speakerdeck.com/callumacrae/climate-change-and-the-tech-community"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 25,
+    "fields": {
+        "theme": "Vue",
+        "name": "Application Shortcuts with a Renderless Event Component",
+        "speaker": "Rolf Haug",
+        "summary": "vueschool talk",
+        "image": "Screenshot_2020-03-08_at_12.14.47.png",
+        "slides": "https://vueschool.io/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 26,
+    "fields": {
+        "theme": "A11y",
+        "name": "Vue Announcer - Content Loading That Isn't Broken",
+        "speaker": "Maria Lamardo",
+        "summary": "Use some Aria live and Tab index,https://github.com/vue-a11y/vue-announcer",
+        "image": "Screenshot_2020-03-08_at_16.09.40.png",
+        "slides": "https://docs.google.com/presentation/d/1IBygfnoKyGfKc--XtTCmP6NLzplUkBv1M_Yj8SmuGbE/edit#slide=id.p"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 27,
+    "fields": {
+        "theme": "How we work",
+        "name": "Team First",
+        "speaker": "Tim Benniks",
+        "summary": "A framework\u000bto lead a team of developers\u000bto success\u000bin a high pressure environment",
+        "image": "Screenshot_2020-03-08_at_16.17.23.png",
+        "slides": "http://slides.com/timbenniks/team-first-3#/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 28,
+    "fields": {
+        "theme": "Nuxt",
+        "name": "What is Nuxt 2020?!",
+        "speaker": "S\u00e9bastien Chopin",
+        "summary": "Nuxt 2020 will be Vue3 ready",
+        "image": "20200220_172436.jpg",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 29,
+    "fields": {
+        "theme": "Nuxt",
+        "name": "Deep Dive into Nuxt.js",
+        "speaker": "Pooya Parsa",
+        "summary": "Deep Dive",
+        "image": "20200220_180227.jpg",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 30,
+    "fields": {
+        "theme": "Vue3",
+        "name": "An Animated Guide to Vue 3 Reactivity and Internals",
+        "speaker": "Sarah Drasner",
+        "summary": "Vue3",
+        "image": "Screenshot_2020-03-08_at_16.31.45.png",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 31,
+    "fields": {
+        "theme": "Vue3",
+        "name": "Vuelidate version for Vue 3.0",
+        "speaker": "Damian Dulisz",
+        "summary": "Getting ready for V3",
+        "image": "Screenshot_2020-03-08_at_16.40.20.png",
+        "slides": "https://vuelidate.js.org/#sub-data-nesting"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 32,
+    "fields": {
+        "theme": "Vue",
+        "name": "Authentication from Scratch",
+        "speaker": "Adam Jahr",
+        "summary": "https://www.vuemastery.com/thank-you-free-weekend",
+        "image": "Screenshot_2020-03-08_at_16.43.38.png",
+        "slides": "https://www.vuemastery.com/courses/token-based-authentication/intro-to-authentication/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 33,
+    "fields": {
+        "theme": "Test",
+        "name": "Test-Driven Development with Vue.js",
+        "speaker": "Sarah Dayan",
+        "summary": "Red, Green Refactor Repeat",
+        "image": "Screenshot_2020-03-08_at_16.49.03.png",
+        "slides": "https://noti.st/sarahdayan/q0xtRN"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 34,
+    "fields": {
+        "theme": "Design",
+        "name": "Vuetify 2+",
+        "speaker": "John Leider",
+        "summary": "Material Design Component Framework",
+        "image": "Screenshot_2020-03-08_at_17.00.04.png",
+        "slides": "https://docs.google.com/presentation/d/13dt0RmiQyulnLcfkj7OokLDG3Oe-R1SXkwwNZ6SmZYU/edit#slide=id.p"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 35,
+    "fields": {
+        "theme": "Vue3",
+        "name": "New Vue. New Compiler. Let\u2019s unbox",
+        "speaker": "Rahul Kadyan",
+        "summary": "data-test = \"*\"",
+        "image": "Screenshot_2020-03-08_at_17.12.34.png",
+        "slides": "https://speakerdeck.com/znck/new-vue-new-compiler-lets-unpack"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 36,
+    "fields": {
+        "theme": "Vuex",
+        "name": "You might not need Vuex",
+        "speaker": "Natalia Tepluhina",
+        "summary": "You might not need Vuex",
+        "image": "20200221_122130.jpg",
+        "slides": "https://speakerdeck.com/ntepluhina/you-might-not-need-vuex"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 37,
+    "fields": {
+        "theme": "Vuex",
+        "name": "Vuex ORM \u2013 Relational data management in Vue",
+        "speaker": "Kia King",
+        "summary": "Handle nested data and update duplicated data",
+        "image": "20200221_124335.jpg",
+        "slides": "https://vuex-orm.github.io/vuex-orm/guide/prologue/what-is-vuex-orm.html#issue-with-nested-relational-data"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 38,
+    "fields": {
+        "theme": "Design",
+        "name": "BootstrapVue - The road to 2.0 and Beyond",
+        "speaker": "Jacob M\u00fcller",
+        "summary": "BootstrapVue",
+        "image": "Screenshot_2020-03-08_at_17.48.15.png",
+        "slides": "https://bootstrap-vue.js.org/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 39,
+    "fields": {
+        "theme": "Architecture",
+        "name": "Micro Frontends: Composing a Greater Whole",
+        "speaker": "Yoav Yanovski",
+        "summary": "Create a basis on which other stacks/frontends can plugin to",
+        "image": "20200221_145739.jpg",
+        "slides": "https://www.npmjs.com/package/@vonage/micro-frontends"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 40,
+    "fields": {
+        "theme": "Vue3",
+        "name": "What you'll love in Vue 3",
+        "speaker": "Alex Kyriakidis",
+        "summary": "Vue3",
+        "image": "Screenshot_2020-03-08_at_17.59.03.png",
+        "slides": "https://madewithvuejs.com/blog/vue-3-roundup"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 41,
+    "fields": {
+        "theme": "Design",
+        "name": "Performant Components through Customization",
+        "speaker": "Maya Shavin",
+        "summary": "https://res.cloudinary.com/mayashavin and https://storefrontui-demo-store.now.sh/ UI Library for Storefront",
+        "image": "Screenshot_2020-03-08_at_18.33.08.png",
+        "slides": "https://slides.com/mayashavin/performant-components-customization-vue-ams#/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 42,
+    "fields": {
+        "theme": "Vue",
+        "name": "Announcement related to Vue CLI UI",
+        "speaker": "Guillaume Chau",
+        "summary": "Graphical User Interface for JS projects also have a look at https://awesomejs.dev/",
+        "image": "Screenshot_2020-03-08_at_18.39.18.png",
+        "slides": "https://guijs.dev/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 43,
+    "fields": {
+        "theme": "Vue3",
+        "name": "vue-router and its techniques",
+        "speaker": "Eduardo San Martin Morote",
+        "summary": "The new vue-router",
+        "image": "Screenshot_2020-03-08_at_18.43.37.png",
+        "slides": ""
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 44,
+    "fields": {
+        "theme": "Vue",
+        "name": "Building Blazing Fast Sites with Gridsome",
+        "speaker": "Jake Dohm",
+        "summary": "Gridsome",
+        "image": "Screenshot_2020-03-08_at_18.44.59.png",
+        "slides": "https://gridsome.org/"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 45,
+    "fields": {
+        "theme": "Nuxt",
+        "name": "Full Static with Nuxt",
+        "speaker": "Debbie O'Brien",
+        "summary": "Static and Nuxt",
+        "image": "Screenshot_2020-03-08_at_18.52.18.png",
+        "slides": "https://noti.st/debbie/JbAi2s/slides"
+    }
+},
+{
+    "model": "core.talk",
+    "pk": 46,
+    "fields": {
+        "theme": "Vue",
+        "name": "Vue.js The Documentary",
+        "speaker": "Josiah McGarvie",
+        "summary": "Want to learn more about how vue started? Just watch it.",
+        "image": "Screenshot_2020-03-08_at_18.56.19.png",
+        "slides": "https://www.youtube.com/watch?v=OrxmtDw4pVI"
+    }
+}
+]
